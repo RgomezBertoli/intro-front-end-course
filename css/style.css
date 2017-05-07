@@ -27,7 +27,20 @@ body {
 
 .header {
     padding: .5rem 2rem;
-    border-bottom: 1px var(--secondary) solid; 
+    border-bottom: 1px var(--secondary) solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: baseline;
+}
+
+.header .nav-bar .nav-link {
+    display: inline;
+    color: var(--alternative);
+    padding: .5rem;
+    border: 2px var(--alternative) solid;
+    text-transform: uppercase;
 }
 
 .content {
