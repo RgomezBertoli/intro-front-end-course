@@ -1,0 +1,94 @@
+:root{
+    --primary: #ecf0f1;
+    --secondary: #bdc3c7;
+    --text: #2c3e50;
+    --border: #D6D6D6;
+    --alternative: #3498db;
+    --shadow: rgba(0,0,0,0.1);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+}
+
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--primary);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    padding: .5rem 2rem;
+    border-bottom: 1px var(--secondary) solid; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.content .page-title {
+    text-align: center;
+}
+
+.login-form {
+    align-self: center;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.login-form input {
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    background: var(--secondary);
+    border: none;
+    border-bottom: 1px var(--border) solid;
+}
+
+.login-form input:focus {
+    outline: none;
+}
+
+.login-form .submit-button {
+    border: none;
+    background-color: var(--alternative);
+    padding: 1rem;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+.stick-bottom {
+    padding: 1rem 2rem;
+    height: 10rem;
+    background-color: var(--secondary);
+}
+
+.twitter-info .twitter-image {
+    height: 2rem;
+    width: 2rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: baseline;
+}
+
+.twitter-info .twitter-link,
+.contact-info .mail{
+    color: var(--alternative);
+    text-decoration: none;
+}
