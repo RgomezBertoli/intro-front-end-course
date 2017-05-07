@@ -7,20 +7,32 @@
     <title>Introduction Course</title>
 </head>
 <body>
-    <main>
-        <h1>Login</h1>
-        <form>
-            <input type="text" placeholder="Username">
-            <input type="password" placeholder="Password">
-            <button>Sign In</button>
+    <header class="header">
+        <h1 class="page-title">Login</h1>
+        <nav  class="nav-bar">
+            <ul>
+                <li class="nav-link">About</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <p>Put your credentials below</p>
+        <form class="login-form">
+            <input type="text" class="input-user" placeholder="Username">
+            <input type="password" class="input-pass" placeholder="Password">
+            <button class="submit-button">Sign In</button>
         </form>
     </main>
-    <footer>
-        <p>Rubén Gómez Bertoli &lt;<a href="mailto:rgomez.bertoli@gmail.com">rgomez.bertoli@gmail.com</a>&gt;</p>
-        <p>
-            <img src="http://vignette4.wikia.nocookie.net/crepusculo/images/f/f7/Twitter.png/revision/latest?cb=20140825024114" style="height:2rem;width:2rem" alt="Twitter">
-            <a href="https://twitter.com/rGomezBertoli">@rGomezBertoli</a>
-        </p>
+    <footer class="stick-bottom">
+        <h2>Contact Info</h2>
+        <div class="contact-info">
+            <span class="name">Rubén Gómez Bertoli &lt;<a href="mailto:rgomez.bertoli@gmail.com" class="mail">rgomez.bertoli@gmail.com</a>&gt;</span>
+            <span class="twitter-info">
+                <img src="http://vignette4.wikia.nocookie.net/crepusculo/images/f/f7/Twitter.png/revision/latest?cb=20140825024114" class="twitter-image"
+                    alt="Twitter">
+                <a href="https://twitter.com/rGomezBertoli" class="twitter-link">@rGomezBertoli</a>
+            </span>
+        </div>
     </footer>
 </body>
 </html>
