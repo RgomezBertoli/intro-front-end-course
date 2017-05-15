@@ -15,7 +15,7 @@ p {...}
 
 /* HTML */
 
-<p>...</p>
+<p></p>
 ```
 - Selector de clase:
 ```css
@@ -23,7 +23,7 @@ p {...}
 
 /* HTML */
 
-<element class="content">...</element>
+<element class="content"></element>
 ```
 - Selector de ID
 ```css
@@ -31,7 +31,7 @@ p {...}
 
 /* HTML */
 
-<element id="titulo">...</elements>
+<element id="titulo"></elements>
 ```
 - Selector de atributo
 ```css
@@ -39,7 +39,7 @@ p {...}
 
 /* HTML */
 
-<element align-left>...</element>
+<element align-left></element>
 ```
 - Selector de atributo especificando valor
 ```css
@@ -47,7 +47,7 @@ p {...}
 
 /* HTML */
 
-<element type="text">...</element>
+<element type="text"></element>
 ```
 
 Haciendo combinaciones de estos diferentes selectores, podemos escoger de forma más exclusiva a que elemento va a afectar nuestro estilo, por ejemplo:
