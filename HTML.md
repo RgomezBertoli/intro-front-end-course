@@ -24,6 +24,7 @@ Hay diferentes tipos de elementos en HTML:
     * table
     * p
     * footer
+    * h1, h2, h3..., h6
 
 
 * **Elementos inline**: Son aquellos que permiten que haya más elementos en una misma fila del documento. A nivel de espacios, este elemento sólo tiene margenes a los lados. Los elementos inline más usados son:
