@@ -93,8 +93,6 @@ for(i=0; i<10; i++){
 
 Como se puede observar, ha subido a la parte superior de nuestro codigo la declaración de las variables que hemos creado y ha dejado la asignación de los valores en la posición en la que nosotros la habíamos hecho.
 
-![Hoisting Gif](https://camo.githubusercontent.com/cb61648e936bd794eb84641d8d6908da60b17e6f/68747470733a2f2f7261772e6769746875622e636f6d2f666c6f76616e2f686f6973742f6d61737465722f64656d6f2f696d672f686f6973742e676966)
-
 Con la creación de funciones hace algo bastante parecido, si tenemos el siguiente codigo:
 
 ```javascript
@@ -113,6 +111,8 @@ var a;
 a = foo;
 ```
 JS siempre sube las declaraciones de las funciones a la parte superior del código, a continuación, la de las variables, y luego ya el resto de sentencias.
+
+![Hoisting Gif](https://camo.githubusercontent.com/cb61648e936bd794eb84641d8d6908da60b17e6f/68747470733a2f2f7261772e6769746875622e636f6d2f666c6f76616e2f686f6973742f6d61737465722f64656d6f2f696d672f686f6973742e676966)
 
 Ahora que ya sabemos como funciona la creación y la asignación de variables, vamos a ver como podemos operar con ellas.
 
