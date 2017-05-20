@@ -33,3 +33,57 @@ Una vez introducidos los principales apartados en los que se engloba el mundo Fr
 - [HTML](./HTML.md)
 - [CSS](./css/README.md)
 - [JavaScript](./src/README.md)
+
+A partir de esas tres guías podreís aprender todo lo necesario para empezar a desarrollar aplicaciones web sin ningún problema, pero si quereis seguir aprendiendo y profundizando más al respecto, aquí teneis los siguientes recursos:
+
+- [MDN Introducción al JavaScript](https://developer.mozilla.org/es/docs/Learn)
+- [Lista de cursos gratuitos de Udacity (En Inglés)](https://www.udacity.com/courses/web-development)
+- [Libro de Eloquent Javascript](http://eloquentjavascript.net/)
+- [Libro de Spekaing Javascript](http://speakingjs.com/)
+
+Además de toda esta gran cantidad de información, hay preparados una serie de ejericios que os permitirán practicar lo que vais viendo en las diferentes guías de iniciación. Los enunciados y tags correspondientes a esos ejercicios son:
+
+
+- En este ejericio os dejo una pequeña estructura para que creeís una página de Login con una cabezera con  el titulo, un cuerpo de página con un formulario con dos cajas de texto y un botón y un pie de pagina con información de contacto:
+    - [Ejericio HTML](https://github.com/RgomezBertoli/intro-front-end-course/tree/HTML-Exercise)
+    - [Solucion HTML](https://github.com/RgomezBertoli/intro-front-end-course/tree/HTML-Solution)
+
+- Una vez que ya le habeís pillado el tranquilo al HTML, vamos a probar suerte con el CSS, la idea es que le deis el estilo que más os apetezca a vuestra página de Login:
+    - [Mi propuesta de estilo](https://github.com/RgomezBertoli/intro-front-end-course/tree/CSS-Solution)
+
+- Ahora vamos a practicar a hacer una página desde 0. Tomaremos como referencia el formato de una página como Wordpress [El Abismo de Null](https://elabismodenull.wordpress.com/). Y siguiendo esa colocacíón de elementos creamos nuestra página:
+    - [Solución Obtenida](https://github.com/RgomezBertoli/intro-front-end-course/tree/Exercise-WordPress)
+
+- Ya le hemos pillado un poco de carrerilla a esto del HTML y del CSS, vamos a crear una página simple y vamos a añadirle un poquito de Javascript para modificar nuestro HTML. Creamos una pagina con una caja de texto y un botón que al pulsarlo cree un elemento que añadiremos a una lista para visualizarlo en pantalla:
+    - [Solucion Ejercicio DOM](https://github.com/RgomezBertoli/intro-front-end-course/tree/Exercise-JS)
+
+- Y por último, practiquemos esas llamadas a servidor, cogiendo como referencia la página del segundo ejercicio, vamos a hacer que pulsando el botón del formulario se envien las credenciales a un servidor en la red:
+    - [Solución Ejercicio XHR](https://github.com/RgomezBertoli/intro-front-end-course/tree/Exercise-XHR)
+
+Los datos de la llamada al servidor son los siguientes:
+
+- URL: 'https://to-do-course.herokuapp.com/'
+- Método HTTP: 'POST'
+- Cabecera necesaria: 'Content-Type=application/json'
+- Cuerpo de la petición:
+
+```json
+{
+    "username": "rgomezbertoli",
+    "pass": "asdf1234"
+}
+```
+Si utilizais otros datos, el servidor os responderá con un Status 500.
+
+Por último deciros que espero que hayais aprendido mucho en este pequeño curso de introducción y que no os haya explotado la cabeza con tanta info.
+
+![MindBlow](http://www.reactiongifs.com/wp-content/uploads/2013/10/tim-and-eric-mind-blown.gif)
+
+<hr>
+Hola, me llamo Rubén y este es mi repositorio. Os dejo mis datos de contacto por si teneis alguna dudilla:
+
+ - Twitter: [@rGomezBertoli](https://twitter.com/rGomezBertoli?lang=es)
+
+Hasta otra
+
+![GoodBye](https://media.giphy.com/media/CrvOibrvHOjOo/giphy.gif)
