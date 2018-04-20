@@ -416,7 +416,7 @@ La diferencia entre __*while*__ y __*do...while*__ es que en el primer caso se h
 
 Ahora que hemos repasado un poco las ideas iniciales de programacíon y visto las partes más básicas de JS, vamos a por las peculiaridades:
 
-![Ready Gif](http://i1195.photobucket.com/albums/aa394/whatstache/Lets%20Do%20It/letsgoapeshitwhipitellenpage.gif)
+![Ready Gif](https://orig00.deviantart.net/c225/f/2012/010/f/d/are_you_ready_for_the___hurricane___gif_by_abunchofzombies-d4lz74l.gif)
 
 ## __*Funciones*__
 
